@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Owner\\Downloads\\FINALPROJECTS-201016-121328 (1)\\FINAL PROJECTS\\MOBILE\\app-debug.apk', 
+Mobile.startApplication('C:\\Users\\Owner\\Downloads\\FINALPROJECTS-201016-121328\\FINAL PROJECTS\\MOBILE\\app-debug.apk', 
     true)
 
 Mobile.tap(findTestObject('Create Account/Button_CreateAccount'), 0)

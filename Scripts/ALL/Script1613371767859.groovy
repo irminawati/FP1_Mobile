@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //CREATE ACCOUNT//
-Mobile.startApplication('C:\\Users\\Owner\\Downloads\\FINALPROJECTS-201016-121328 (1)\\FINAL PROJECTS\\MOBILE\\app-debug.apk', 
+Mobile.startApplication('C:\\Users\\Owner\\Downloads\\FINALPROJECTS-201016-121328\\FINAL PROJECTS\\MOBILE\\app-debug.apk', 
     false)
 
 Mobile.tap(findTestObject('Create Account/Button_CreateAccount'), 3)
 
 Mobile.setText(findTestObject('Create Account/Stext_First Name'), 'nia', 3)
 
-Mobile.setText(findTestObject('Create Account/Stext_Last Name'), 'kurniawati', 3)
+Mobile.setText(findTestObject('Create Account/Stext_Last Name'), 'irminawati', 3)
 
 Mobile.setText(findTestObject('Create Account/Stext_Country'), 'indonesia', 3)
 
-Mobile.setText(findTestObject('Create Account/Stext_Username'), 'kurniawati', 3)
+Mobile.setText(findTestObject('Create Account/Stext_Username'), 'irminawati', 3)
 
 Mobile.setEncryptedText(findTestObject('Create Account/Stext_Password'), 'OjI3K2/1R30xCJ6z9HEOrA==', 3)
 
@@ -50,18 +50,18 @@ Mobile.tap(findTestObject('Menu-menu Strip Tiga/Button_Accounts'), 3)
 
 Mobile.tap(findTestObject('Object Repository/Account/Input Add Account/Button Plus for Add Account'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stex_Account Name'), 'M Fachri', 3)
+Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stex_Account Name'), 'M Eko', 3)
 
-Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stext_Initial Balance (Optional)'), '1500000', 
+Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stext_Initial Balance (Optional)'), '20000000', 
     3)
 
 Mobile.tap(findTestObject('Object Repository/Account/Input Add Account/Button_ADD'), 3)
 
 Mobile.tap(findTestObject('Object Repository/Account/Input Add Account/Button Plus for Add Account'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stex_Account Name'), 'MAMET', 3)
+Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stex_Account Name'), 'Yusron', 3)
 
-Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stext_Initial Balance (Optional)'), '1500000', 
+Mobile.setText(findTestObject('Object Repository/Account/Input Add Account/Stext_Initial Balance (Optional)'), '1000000', 
     3)
 
 Mobile.tap(findTestObject('Object Repository/Account/Input Add Account/Button_ADD'), 3)
@@ -84,14 +84,14 @@ Mobile.tap(findTestObject('Object Repository/Menu-menu Strip Tiga/Button_Make a 
 
 not_run: Mobile.tap(findTestObject('Object Repository/Transfer/Spinner_SelectAccont'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Transfer/Stext_Transfer Amount'), '100000', 0)
+Mobile.setText(findTestObject('Object Repository/Transfer/Stext_Transfer Amount'), '200000', 0)
 
 //MAKE DEPOSIT
 Mobile.tap(findTestObject('Login/Button_StripTiga'), 3)
 
 Mobile.tap(findTestObject('Menu-menu Strip Tiga/Button_Make a Deposit'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Make Deposit/Stext_Amount Deposit'), '500000', 3)
+Mobile.setText(findTestObject('Object Repository/Make Deposit/Stext_Amount Deposit'), '300000', 3)
 
 Mobile.tap(findTestObject('Object Repository/Make Deposit/Button_Deposit'), 3)
 
@@ -104,7 +104,7 @@ Mobile.tap(findTestObject('payment/android.widget.CheckedTextView - Make a Payme
 
 Mobile.tap(findTestObject('payment/android.widget.ImageButton (2)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/payment/android.widget.EditText - Payee Name'), 'baju', 0)
+Mobile.setText(findTestObject('Object Repository/payment/android.widget.EditText - Payee Name'), 'jilbab', 0)
 
 Mobile.tap(findTestObject('payment/android.widget.Button - ADD'), 0)
 
